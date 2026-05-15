@@ -3,6 +3,6 @@ import { MetadataRoute } from 'next'
 export default function robots(): MetadataRoute.Robots {
   return {
     rules: { userAgent: '*', allow: '/' },
-    sitemap: 'https://nucleusdesign.com/sitemap.xml',
+    sitemap: 'https://nucleusdesign.com.au/sitemap.xml',
   }
 }
