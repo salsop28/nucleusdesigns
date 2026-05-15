@@ -60,7 +60,7 @@ export default function GetStarted() {
 
         <div data-cta className="flex flex-col sm:flex-row items-center justify-center gap-5">
           <a
-            href="mailto:hello@nucleusdesigns.com"
+            href="mailto:hello@nucleusdesign.com.au"
             className="btn btn-primary text-base py-4 px-8"
           >
             <span className="btn-bg" />
@@ -69,10 +69,10 @@ export default function GetStarted() {
             </span>
           </a>
           <a
-            href="mailto:hello@nucleusdesigns.com"
+            href="mailto:hello@nucleusdesign.com.au"
             className="mono text-sm text-[#0A0A14]/50 hover:text-[#7B61FF] transition-colors"
           >
-            hello@nucleusdesigns.com
+            hello@nucleusdesign.com.au
           </a>
         </div>
       </div>

@@ -101,7 +101,7 @@ export default function Hero() {
           data-hero
           className="text-[#F0EFF4]/65 text-base md:text-lg max-w-xl leading-relaxed mb-10"
         >
-          Nucleus Designs is a website design agency on the Central Coast of Australia — crafting
+          Nucleus Design is a website design agency on the Central Coast of Australia — crafting
           beautiful, strategic websites from discovery to launch.
         </p>
 

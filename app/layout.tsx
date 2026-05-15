@@ -24,24 +24,24 @@ const firaCode = Fira_Code({
 })
 
 export const metadata: Metadata = {
-  title: 'Website Design Agency | Nucleus Designs',
+  title: 'Website Design Agency | Nucleus Design',
   description:
-    'Nucleus Designs is a Central Coast website design agency crafting beautiful, strategic websites. From strategy to execution, we deliver results. Book a consultation.',
+    'Nucleus Design is a Central Coast website design agency crafting beautiful, strategic websites. From strategy to execution, we deliver results. Book a consultation.',
   alternates: {
-    canonical: 'https://nucleusdesigns.com',
+    canonical: 'https://nucleusdesign.com.au',
   },
   openGraph: {
-    title: 'Website Design Agency | Nucleus Designs',
+    title: 'Website Design Agency | Nucleus Design',
     description:
-      'Nucleus Designs is a Central Coast website design agency crafting beautiful, strategic websites. From strategy to execution, we deliver results. Book a consultation.',
+      'Nucleus Design is a Central Coast website design agency crafting beautiful, strategic websites. From strategy to execution, we deliver results. Book a consultation.',
     images: ['https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200&q=80'],
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Website Design Agency | Nucleus Designs',
+    title: 'Website Design Agency | Nucleus Design',
     description:
-      'Nucleus Designs is a Central Coast website design agency crafting beautiful, strategic websites. From strategy to execution, we deliver results. Book a consultation.',
+      'Nucleus Design is a Central Coast website design agency crafting beautiful, strategic websites. From strategy to execution, we deliver results. Book a consultation.',
     images: ['https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200&q=80'],
   },
 }
@@ -57,11 +57,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               {
                 '@context': 'https://schema.org',
                 '@type': 'Organization',
-                name: 'Nucleus Designs',
+                name: 'Nucleus Design',
                 description:
                   'A website design agency on the Central Coast of Australia, building beautiful, strategic websites.',
-                url: 'https://nucleusdesigns.com',
-                email: 'hello@nucleusdesigns.com',
+                url: 'https://nucleusdesign.com.au',
+                email: 'hello@nucleusdesign.com.au',
                 address: {
                   '@type': 'PostalAddress',
                   addressLocality: 'Central Coast',
@@ -73,7 +73,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 '@context': 'https://schema.org',
                 '@type': 'Service',
                 name: 'Website Design & Development',
-                provider: { '@type': 'Organization', name: 'Nucleus Designs' },
+                provider: { '@type': 'Organization', name: 'Nucleus Design' },
                 description:
                   'Strategic website design and development for businesses on the Central Coast of Australia.',
                 areaServed: 'Central Coast, NSW, Australia',

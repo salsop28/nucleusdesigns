@@ -13,7 +13,7 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <div className="text-[#F0EFF4] font-bold text-2xl tracking-tight mb-3">
-              Nucleus Designs
+              Nucleus Design
             </div>
             <p className="drama text-[#7B61FF] text-lg mb-4">Build beautiful websites.</p>
             <p className="mono text-[#F0EFF4]/30 text-xs tracking-wider uppercase">
@@ -41,10 +41,10 @@ export default function Footer() {
           <div>
             <div className="eyebrow mb-6">Contact</div>
             <a
-              href="mailto:hello@nucleusdesigns.com"
+              href="mailto:hello@nucleusdesign.com.au"
               className="mono text-[#F0EFF4]/50 hover:text-[#F0EFF4] text-sm transition-colors block mb-4"
             >
-              hello@nucleusdesigns.com
+              hello@nucleusdesign.com.au
             </a>
             <a
               href="#contact"
@@ -66,7 +66,7 @@ export default function Footer() {
 
           <div className="flex items-center gap-6">
             <span className="text-[#F0EFF4]/25 text-xs">
-              © {new Date().getFullYear()} Nucleus Designs
+              © {new Date().getFullYear()} Nucleus Design
             </span>
             <a
               href="/privacy"
