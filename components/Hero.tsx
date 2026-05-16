@@ -48,7 +48,7 @@ export default function Hero() {
     <section
       id="hero"
       ref={containerRef}
-      className="relative w-full h-[100dvh] flex flex-col justify-end overflow-hidden"
+      className="relative w-full h-[100dvh] overflow-hidden"
     >
       {/* Background video — plays 3 times then holds on last frame */}
       <video
@@ -74,12 +74,9 @@ export default function Hero() {
         }}
       />
 
-      {/* Content — bottom-left third */}
-      <div className="relative z-10 px-8 md:px-16 lg:px-24 pb-20 md:pb-28 max-w-4xl">
-        <div data-hero className="eyebrow text-[#7B61FF]/90 mb-6">
-          Central Coast, NSW · Website Design Agency
-        </div>
-
+      {/* Content — safe zone: top-24 keeps it below the fixed navbar; overflow-hidden clips rather than overlaps */}
+      <div className="absolute inset-x-0 top-24 bottom-0 z-10 px-8 md:px-16 lg:px-24 flex flex-col justify-end pb-20 md:pb-28 overflow-hidden">
+      <div className="max-w-4xl">
         <h1 className="mb-6">
           <span
             data-hero
@@ -117,6 +114,7 @@ export default function Hero() {
             <span className="btn-label">See our services</span>
           </a>
         </div>
+      </div>
       </div>
 
       {/* Scroll hint */}
